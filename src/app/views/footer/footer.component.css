@@ -1,0 +1,231 @@
+.background-footer {
+    background-color: #202020;
+    width: auto;
+}
+.container-rodape {
+    width: 142.7rem;
+    margin: 0 auto;
+    
+}
+.primeira-linha-rodape {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.primeira-linha-rodape img {
+    width: 44.602rem;
+    height: 6.3rem;
+}
+.link-rodape {
+    width: 80rem;
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+}
+.link-rodape a {
+    text-decoration: none;
+    color: #575757;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 1.6rem;
+}
+
+.formas-de-pagamento {
+    display: flex;
+    flex-direction: column;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 1.4rem;
+    color: #575757;
+    margin-top: 4rem;
+
+}
+.imagem-pagamentos {
+    margin-top:4rem;
+    margin-bottom: 4rem;
+}
+.imagem-pagamentos img {
+    width: 41.232rem;
+}
+.segurança-certificados {
+    display: flex;
+    flex-direction: column;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 1.4rem;
+    color: #575757;
+}
+.segurança-certificados img {
+    width: 14.537rem;
+    height: 3.892rem;
+}
+.selos {
+    display: flex;
+    flex-direction: row;
+    margin-top: 4rem;
+}
+
+.certificados-iso {
+    display: flex;
+    flex-direction: column;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 1.4rem;
+    color: #575757;
+}
+.certificados-iso img {
+    width: 9.515rem;
+}
+.selos-iso {
+    display: flex;
+    flex-direction: row;
+    /* margin-top: 10px; */
+}
+.segunda-linha-rodape {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+.siga-nos {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 19.228rem;
+    margin: auto;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 1.4rem;
+    color: #575757;
+    /* margin-bottom: 4rem; */
+}
+.siga-nos-icones {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.icones-sociais {
+    margin: 2rem;
+    width: 3rem;
+    height: 3rem;
+}
+.container-direitos-reservados {
+    background-color: #000;
+    width: auto;
+    height: 6.4rem;
+    margin: auto;
+    color: white;
+    display: flex;
+    justify-content: left;
+    align-items: flex-end;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+}
+.direitos-reservados-info {
+    display: flex;
+    width: auto;
+}
+@media only screen and (max-width: 1600px){}
+ 
+    @media only screen and (max-width: 1440px) {
+    }
+    @media only screen and (max-width: 1366px) {
+        .barra-de-pesquisa {
+            display: none;
+        }
+        /* .logo {
+           width: 80%;
+        } */
+        .container-grid {
+            width: 80%;
+        }
+        .container-boxes {
+            flex-direction: column;
+            width: 80%;
+        }
+        .menu {
+            
+            height: 25rem;
+            width: 100vw;
+            /* margin-top: auto; */
+            background-color: #000;
+            position: absolute;
+            top: 6.4rem;
+            right: 0;
+            display: none;
+        }
+        .menu a {
+            display: none;
+            display: flex;
+            flex-direction: column;
+            
+        }
+        .menu input {
+            display: flex;
+            flex-direction: column;
+        }
+        .container-rodape {
+            width: auto;
+            flex-direction: column;
+        }
+        .menu-bar {
+            display: inline-block;
+        }
+        .link-rodape {
+            width: 50rem;
+        }
+    }
+    @media only screen and (max-width: 1100px) {
+        html {
+            font-size: 58%;
+        }
+        .primeira-linha-rodape {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .link-rodape {
+            margin-top: 7rem;
+            margin-bottom: 7rem;
+        }
+        .banner {
+            height: 30.5rem;
+        }
+    }
+    @media only screen and (max-width: 780px) {
+        .logo {
+            display: none;
+        }
+        .logo-tablet {
+            display: inline-block;
+        }
+    }
+    
+    @media only screen and (max-width: 640px) {
+        html {
+            font-size: 50%;
+        }
+        .logo-tablet {
+            display: none;
+        }
+        .logo-mobile {
+            display: inline-block;
+        }
+        .conteudo-texto, .conteudo-texto2 {
+            font-size: 2.7rem;
+        }
+    
+    }
+    @media only screen and (max-width: 500px) {
+        html {
+            font-size: 45%;
+        }
+        header {
+            height: 10rem;
+        }
+        .menu {
+            position: absolute;
+            top: 10rem;
+        }}

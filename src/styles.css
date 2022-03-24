@@ -1,1 +1,136 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital@1&display=swap');
+
+html, body {
+    font-size: 62.5%;
+}
+body {
+    background-color: #Fafafa;
+ }
+ .container-grid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 142.7rem;
+    height: 100%;
+    margin: 0 auto;
+    /* margin: 0 auto; Ele alinha no centro! */
+}
+ @media only screen and (max-width: 1600px) {
+ 
+    @media only screen and (max-width: 1440px) {
+    }
+    @media only screen and (max-width: 1366px) {
+        .barra-de-pesquisa {
+            display: none;
+        }
+        /* .logo {
+           width: 80%;
+        } */
+        .container-grid {
+            width: 80%;
+        }
+        .container-boxes {
+            flex-direction: column;
+            width: 80%;
+        }
+        .menu {
+            
+            height: 25rem;
+            width: 100vw;
+            /* margin-top: auto; */
+            background-color: #000;
+            position: absolute;
+            top: 6.4rem;
+            right: 0;
+            display: none;
+        }
+        .menu a {
+            display: none;
+            display: flex;
+            flex-direction: column;
+            
+        }
+        .menu input {
+            display: flex;
+            flex-direction: column;
+        }
+        .container-rodape {
+            width: 80%;
+            flex-direction: column;
+        }
+        .menu-bar {
+            display: inline-block;
+        }
+        .link-rodape {
+            width: 50rem;
+        }
+    }
+    }
+    @media only screen and (max-width: 1100px) {
+        html {
+            font-size: 58%;
+        }
+        .primeira-linha-rodape {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .link-rodape {
+            margin-top: 7rem;
+            margin-bottom: 7rem;
+        }
+        .banner {
+            height: 30.5rem;
+        }
+    }
+    @media only screen and (max-width: 780px) {
+        .logo {
+            display: none;
+        }
+        .logo-tablet {
+            display: inline-block;
+        }
+    }
+    
+    @media only screen and (max-width: 640px) {
+        html {
+            font-size: 50%;
+        }
+        .logo-tablet {
+            display: none;
+        }
+        .logo-mobile {
+            display: inline-block;
+        }
+        .conteudo-texto, .conteudo-texto2 {
+            font-size: 2.7rem;
+        }
+    
+    }
+    @media only screen and (max-width: 500px) {
+        html {
+            font-size: 45%;
+        }
+        header {
+            height: 10rem;
+        }
+        .menu {
+            position: absolute;
+            top: 10rem;
+        }
+        .carrinho-usuario img {
+            height: 2.5rem;
+            margin: 1.2rem;
+        }
+        #carrinho-button {
+            display : none;
+        }
+        .link-rodape {
+            width: 40rem;
+        }
+    }

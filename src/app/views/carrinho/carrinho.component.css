@@ -1,0 +1,34 @@
+.container-carrinho {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: auto;
+    height: 50rem;
+    
+}
+.fundo-carrinho {
+    
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-carrinho img {
+    width: 40rem;
+    opacity: 50%;
+}
+.container-carrinho span {
+    font-size: 4rem;
+    font-family: 'PT Sans', sans-serif;
+}
+.container-carrinho a {
+    font-size: 2rem;
+    text-decoration: none;
+    color: #000;
+    font-family: 'PT Sans', sans-serif;
+}
+.container-carrinho a:hover {
+    text-decoration: underline;
+}

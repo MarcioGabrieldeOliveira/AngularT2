@@ -1,0 +1,35 @@
+<section class="fundo-login">
+    <div class="content-login">
+        <div class="header-login">
+            <img src="assets/img/right-to-bracket-solid.svg" alt="pagina login">
+            <h1>Acesse sua conta</h1>
+        </div>
+        <div class="main-login">
+            <form #loginForm="ngForm" (ngSubmit)="onSubmit()">
+                <div class="input-field">
+                    <input id="email" type="email" name="email" placeholder="E-mail" [(ngModel)]="loginModel.email">
+                    <label for="email">
+                        <img src="assets/img/user-solid (1).svg" alt="email">
+                    </label>
+                </div>
+                <div class="input-field">
+                    <input type="password" name="password" placeholder="Senha" id="password" [(ngModel)]="loginModel.password">
+                    <label for="password">
+                        <img src="assets/img/key-solid.svg" alt="senha">
+                    </label>
+                </div>
+                <div class="checkbox-login">
+                    <input type="checkbox" checked id="remind-pass">
+                    <label for="remind-pass">Lembrar senha</label>
+                </div>
+                <button>
+                    <input type="submit" id="botao-enviar-login" value="Login">
+                </button>    
+            </form>
+        </div>
+        <div class="footer-login">
+            <span><a href="faleconosco.html">Esqueci minha senha</a></span>
+            <a routerLink="/registro">Criar nova conta</a>
+        </div>
+    </div>
+</section>

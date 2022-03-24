@@ -1,0 +1,50 @@
+<form>
+    <p class="title-form"><img src="assets/img/headset-solid.svg" alt="atendimento">Atendimento Senai
+        Protótipo</p>
+    <p class="subtitle-form">Preencha os dados e clique em "enviar ticket", o atendimento será feito atráves do
+        e-mail informado.</p>
+    <label for="name"></label>
+    <input type="text" id="name" placeholder="Nome Completo">
+    <label for="assunto"></label>
+    <select id="assunto">
+        <option value="Assunto">
+            Assunto
+        </option>
+        <option value="Rastrear Entrega">
+            Rastrear Entrega
+        </option>
+        <option value="Acompanhar Pedido">
+            Acompanhar Pedido
+        </option>
+        <option value="Cancelar Pedido">
+            Cancelar Pedido
+        </option>
+        <option value="Duvidas de Produto">
+            Duvida de Produtos
+        </option>
+        <option value="Arrependimento">
+            Arrependimento
+        </option>
+        <option value="Garantia">
+            Garantia
+        </option>
+        <option value="Outros">
+            Outros
+        </option>
+    </select>
+    <label for="email"></label>
+    <input type="text" id="email" placeholder="Endereço de E-mail">
+    <div>
+        <label for="ddd"></label>
+        <input type="text" id="ddd" size="8" maxlength="2" style="max-width: 85px;" placeholder="DDD">
+        <label for="Telefone"></label>
+        <input type="text" id="Telefone" placeholder="Telefone">
+    </div>
+    <label for="mensagem"></label>
+
+    <textarea id="mensagem" name="mensagem" rows="10" cols="50" maxlength="200" minlength="2"
+        placeholder="Digite  aqui  sua  mensagem" required autocomplete></textarea>
+    <div id="btn-submit">
+        <input id="btn-submit-form" type="button" value="Enviar Ticket">
+    </div>
+</form>
