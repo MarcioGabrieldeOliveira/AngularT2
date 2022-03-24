@@ -1,0 +1,25 @@
+{
+  "produtos": [
+    {
+      "id": 1,
+      "imagem": "assets/img/computador-imagem.svg",
+      "titulo": "computador pichau gamer, amd ryzen 3 4350g, 16gb ddr4, hd 1tb + ssd m.2 120gb",
+      "descricao": "R$ 1.999,00",
+      "valor": "199,99"
+    },
+    {
+      "id": 2,
+      "imagem": "assets/img/computador-imagem.svg",
+      "titulo": "computador pichau gamer, amd ryzen 3 4350g, 16gb ddr4, hd 1tb + ssd m.2 120gb",
+      "descricao": "R$ 1.999,00",
+      "valor": "199,99"
+    },
+    {
+      "id": 3,
+      "imagem": "assets/img/computador-imagem.svg",
+      "titulo": "computador pichau gamer, amd ryzen 3 4350g, 16gb ddr4, hd 1tb + ssd m.2 120gb",
+      "descricao": "R$ 1.999,00",
+      "valor": "199,99"
+    }
+  ]
+}

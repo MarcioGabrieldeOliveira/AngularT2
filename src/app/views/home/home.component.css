@@ -32,13 +32,23 @@
     flex-direction: column;
     align-items: center;
 }
+.ProdutosNew {
+    width: 40rem;
+    margin-top: 5rem;
+    height: 62rem;
+    background-color: #3e3e3e10;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .container-boxes {
     display: flex;
     justify-content: space-between;
+    flex-direction: row;
     align-items: center;
-    width: 142rem;
     height: auto;
     margin: auto;
+    width: 142rem;
 }
 .figure {
     display: flex;
@@ -285,148 +295,6 @@
     background-color: #0672CB;
     transition: 400ms;
     color: white;
-}
-
-
-form {
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-    width: 100vw;
-    background-color: #FEFCFB;
-    padding: 3rem 4rem;
-    /* margin-top: 10vh;
-    margin-bottom: 10vh; */
-}
-#name {
-    border: none;
-    outline: none;
-    height: 4.8rem;
-    padding: 8px 16px;
-    margin: 0.8rem 0;
-    display: inline-block;
-    border: 0.1rem solid #ccc;
-    border-radius: 0.4rem;
-    box-sizing: border-box;
-    background: #FFF;
-    color: #565C69;
-    font-family: 'PT Sans', sans-serif;
-}
-#assunto {
-    border: none;
-    outline: none;
-    height: 4.8rem;
-    padding: 0.8rem 1.6rem;
-    margin: 0.8rem 0;
-    display: inline-block;
-    border: 0.1rem solid #ccc;
-    border-radius: 0.4rem;
-    box-sizing: border-box;
-    background: #FFF;
-    color: #565C69;
-    font-family: 'PT Sans', sans-serif;
-}
-#email {
-    border: none;
-    outline: none;
-    height: 4.8rem;
-    padding: 0.8rem 1.6rem;
-    margin: 0.8rem 0;
-    display: inline-block;
-    border: 0.1rem solid #ccc;
-    border-radius: 0.4rem;
-    box-sizing: border-box;
-    background: #FFF;
-    color: #565C69;
-    font-family: 'PT Sans', sans-serif;
-}
-#ddd {
-    border: none;
-    outline: none;
-    height: 4.8rem;
-    padding: 0.8rem 1.6rem;
-    margin: 0.8rem 0;
-    display: inline-block;
-    border: 0.1rem solid #ccc;
-    border-radius: 0.4rem;
-    box-sizing: border-box;
-    background: #FFF;
-    color: #565C69;
-    font-family: 'PT Sans', sans-serif;
-}
-#Telefone {
-    border: none;
-    outline: none;
-    height: 4.8rem;
-    padding: 0.8rem 1.6rem;
-    margin: 0.8rem 0;
-    display: inline-block;
-    border: 0.1rem solid #ccc;
-    border-radius: 0.4rem;
-    box-sizing: border-box;
-    background: #FFF;
-    color: #565C69;
-    font-family: 'PT Sans', sans-serif;
-}
-#mensagem {
-    border: none;
-    outline: none;
-    padding: 0.8rem 1.6rem;
-    margin: 0.8rem 0;
-    display: inline-block;
-    border: 0.1rem solid #ccc;
-    border-radius: 0.4rem;
-    box-sizing: border-box;
-    background: #FFF;
-    color: #565C69;
-    font-family: 'PT Sans', sans-serif;
-}
-#btn-submit-form {
-    display: flex;
-    justify-content: center;
-    border: none;
-    width: 20rem;
-    height:5rem;
-    background: #001F54;
-    border-radius: 2rem;
-    color: white;
-    border: solid 0.1rem #1D1E2C;
-    transition: 800ms;
-}
-#btn-submit-form:hover {
-    background: white;
-    color: #001F54;
-    transition: 800ms;
-}
-#btn-submit {
-    display: flex;
-    justify-content: center;
-    padding: 2rem;
-}
-.title-form {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 5rem;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 5rem;
-    font-family: 'PT Sans', sans-serif;
-    color: #000;
-    text-transform: uppercase;
-    font-weight: 800;
-    font-size: 2.5rem;
-}
-.title-form img {
-    width: 2.4rem;
-    margin: 2rem;
-}
-.subtitle-form {
-    font-family: 'PT Sans', sans-serif;
-    display: flex;
-    font-size: 2rem;
-    /* padding-top: 1.5rem;
-    padding-bottom: 1.5rem; */
 }
 @media only screen and (max-width: 1600px) {
  

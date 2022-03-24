@@ -11,55 +11,15 @@
         </div>
     </section>
     <section class="container-boxes">
-        <div class="produto-box">
-            <div class="figure"><img src="assets/img/computador-imagem.svg" alt="Computador Gamer">
+        <div *ngFor="let Produtos of listaProdutos" class="ProdutosNew">
+            <div class="figure"><img [src]="Produtos.imagem" alt="Computador Gamer">
             </div>
             <div class="info-box">
-                <p>computador pichau gamer, amd ryzen 3 4350g, 16gb ddr4, hd 1tb + ssd m.2 120gb</p>
+                <p>{{ Produtos.titulo }}</p>
             </div>
-            <div class="price-title"><span>R$ 5.663,57</span></div>
-            <div class="info-price"><span>em 10x de <span class="info-first-value">R$ 563,69</span> sem juros no cartão
-                    ou em <span class="info-price1">R$ 5.380,68</span> à vista no boleto com 5% de desconto</span>
-            </div>
-            <div class="cashback-content">
-                <span class="ame-content"><img src="assets/img/ame-logo.svg" alt="Use ame e" width="40px"
-                        height="12.11px"></span>
-                <span class="info-ame-content">receba <span class="info-ame-price">R$ 283,19</span> (5% de volta)</span>
-            </div>
-            <div class="buttons-buy-box">
-                <a href class="btn-saibamais">saiba mais</a>
-                <a href class="btn-comprar">comprar</a>
-            </div>
-        </div>
-        <div class="produto-box">
-            <div class="figure"><img src="assets/img/computador-imagem.svg" alt="Computador Gamer">
-            </div>
-            <div class="info-box">
-                <p>computador pichau gamer, amd ryzen 3 4350g, 16gb ddr4, hd 1tb + ssd m.2 120gb</p>
-            </div>
-            <div class="price-title"><span>R$ 5.663,57</span></div>
-            <div class="info-price"><span>em 10x de <span class="info-first-value">R$ 563,69</span> sem juros no cartão
-                    ou em <span class="info-price1">R$ 5.380,68</span> à vista no boleto com 5% de desconto</span>
-            </div>
-            <div class="cashback-content">
-                <span class="ame-content"><img src="assets/img/ame-logo.svg" alt="Use ame e" width="40px"
-                        height="12.11px"></span>
-                <span class="info-ame-content">receba <span class="info-ame-price">R$ 283,19</span> (5% de volta)</span>
-            </div>
-            <div class="buttons-buy-box">
-                <a href class="btn-saibamais">saiba mais</a>
-                <a href class="btn-comprar">comprar</a>
-            </div>
-        </div>
-        <div class="produto-box">
-            <div class="figure"><img src="assets/img/computador-imagem.svg" alt="Computador Gamer">
-            </div>
-            <div class="info-box">
-                <p>computador pichau gamer, amd ryzen 3 4350g, 16gb ddr4, hd 1tb + ssd m.2 120gb</p>
-            </div>
-            <div class="price-title"><span>R$ 5.663,57</span></div>
-            <div class="info-price"><span>em 10x de <span class="info-first-value">R$ 563,69</span> sem juros no cartão
-                    ou em <span class="info-price1">R$ 5.380,68</span> à vista no boleto com 5% de desconto</span>
+            <div class="price-title"><span>{{ Produtos.descricao }}</span></div>
+            <div class="info-price"><span>em 10x de <span class="info-first-value">{{ Produtos.valor }}</span> sem juros no cartão
+                    ou em <span class="info-price1">{{ Produtos.descricao }}</span> à vista no boleto com 5% de desconto</span>
             </div>
             <div class="cashback-content">
                 <span class="ame-content"><img src="assets/img/ame-logo.svg" alt="Use ame e" width="40px"
@@ -75,70 +35,6 @@
 
 
     <section class="container-boxes">
-        <div class="produto-box">
-            <div class="figure"><img src="assets/img/computador-home-office.svg" alt="Computador home office">
-            </div>
-            <div class="info-box">
-                <p>computador pichau gamer, amd ryzen 3 4350g, 16gb ddr4, hd 1tb + ssd m.2 120gb</p>
-            </div>
-            <div class="price-title2"><span>R$ 5.663,57</span></div>
-            <div class="info-price"><span>em 10x de <span class="info-first-value">R$ 563,69</span> sem juros no cartão
-                    ou em <span class="info-price1">R$ 5.380,68</span> à vista no boleto com 5% de desconto</span>
-            </div>
-            <div class="cashback-content">
-                <span class="ame-content"><img src="assets/img/ame-logo.svg" alt="Use ame e" width="40px"
-                        height="12.11px"></span>
-                <span class="info-ame-content">receba <span class="info-ame-price">R$ 283,19</span> (5% de volta)</span>
-            </div>
-            <div class="buttons-buy-box">
-                <a href class="btn-saibamais2">saiba mais</a>
-                <a href class="btn-comprar2">comprar</a>
-            </div>
-        </div>
-
-
-        <div class="produto-box">
-            <div class="figure"><img src="assets/img/computador-home-office.svg" alt="Computador home office">
-            </div>
-            <div class="info-box">
-                <p>computador pichau gamer, amd ryzen 3 4350g, 16gb ddr4, hd 1tb + ssd m.2 120gb</p>
-            </div>
-            <div class="price-title2"><span>R$ 5.663,57</span></div>
-            <div class="info-price"><span>em 10x de <span class="info-first-value">R$ 563,69</span> sem juros no cartão
-                    ou em <span class="info-price1">R$ 5.380,68</span> à vista no boleto com 5% de desconto</span>
-            </div>
-            <div class="cashback-content">
-                <span class="ame-content"><img src="assets/img/ame-logo.svg" alt="Use ame e" width="40px"
-                        height="12.11px"></span>
-                <span class="info-ame-content">receba <span class="info-ame-price">R$ 283,19</span> (5% de volta)</span>
-            </div>
-            <div class="buttons-buy-box">
-                <a href class="btn-saibamais2">saiba mais</a>
-                <a href class="btn-comprar2">comprar</a>
-            </div>
-        </div>
-
-
-        <div class="produto-box">
-            <div class="figure"><img src="assets/img/computador-home-office.svg" alt="Computador Home-Office">
-            </div>
-            <div class="info-box">
-                <p>computador pichau gamer, amd ryzen 3 4350g, 16gb ddr4, hd 1tb + ssd m.2 120gb</p>
-            </div>
-            <div class="price-title2"><span>R$ 5.663,57</span></div>
-            <div class="info-price"><span>em 10x de <span class="info-first-value">R$ 563,69</span> sem juros no cartão
-                    ou em <span class="info-price1">R$ 5.380,68</span> à vista no boleto com 5% de desconto</span>
-            </div>
-            <div class="cashback-content">
-                <span class="ame-content"><img src="assets/img/ame-logo.svg" alt="Use ame e" width="40px"
-                        height="12.11px"></span>
-                <span class="info-ame-content">receba <span class="info-ame-price">R$ 283,19</span> (5% de volta)</span>
-            </div>
-            <div class="buttons-buy-box">
-                <a href class="btn-saibamais2">saiba mais</a>
-                <a href class="btn-comprar2">comprar</a>
-            </div>
-        </div>
     </section>
     <div>
         <a href="#" class="vermais"><img class="icon-vermais" src="assets/img/vermais-icon.svg" alt="icone de ver mais"

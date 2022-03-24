@@ -97,7 +97,7 @@
               "src/styles.css"
             ],
             "scripts": [
-              "src/assets/js/top.js"
+              "src/assets/js/projeto.js"
             ]
           }
         }
