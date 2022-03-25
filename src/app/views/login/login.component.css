@@ -126,6 +126,27 @@
     background-color: #021127;
     transition: .3s;
 }
+#botao-enviar-login {
+    text-decoration: none;
+    border: none;
+    outline: none;
+    background-color: #031d44;
+    color: white;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 2.5rem;
+    transition: .3s;
+    height: 100%;
+    width: 100%;
+}
+#botao-enviar-login:hover {
+    background-color: #021127;
+    transition: .3s;
+}
+#mensagemErro {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 1.5rem;
+    color: #FF331F;
+}
 .content-login .footer-login {
     margin: auto;
     width: 85%;
@@ -151,29 +172,3 @@
 .content-login .footer-login span a {
     font-weight: 300;
 }
-
-/* @media (max-width: 400px) {
-    html {
-        font-size: 58%;
-    }
-}
-@media (max-width: 370px) {
-    html {
-        font-size: 52%;
-    }
-    .content header h1 {
-        font-size: 3.5rem;
-    }
-    .content main {
-        width: 100%;
-    }
-    .content {
-        width: 85%;
-    }
-    .content footer {
-        width: 100%;
-    }
-    .content footer a {
-        font-size: 1.4rem;
-    }
-} */

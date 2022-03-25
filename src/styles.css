@@ -134,3 +134,8 @@ body {
             width: 40rem;
         }
     }
+    @media only screen and (max-width: 380px) {
+        html {
+            font-size: 40%;
+        }
+    }

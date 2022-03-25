@@ -42,5 +42,4 @@ export class LoginComponent implements OnInit {
       this.mensagemErro = respostaErro.error;
     })
   }
-}
-}
+}}
