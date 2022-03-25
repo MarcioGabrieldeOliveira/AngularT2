@@ -26,6 +26,7 @@
                     <input type="submit" id="botao-enviar-login" value="Login">
                 </button>    
             </form>
+            <h1 id="mensagemErro" *ngIf=" mensagemErro != '' ">{{ mensagemErro }}</h1>
         </div>
         <div class="footer-login">
             <span><a href="faleconosco.html">Esqueci minha senha</a></span>

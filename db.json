@@ -1,4 +1,12 @@
 {
+  "users": [
+    {
+      "email": "marcio@email.com",
+      "password": "$2a$10$SmQYuM4WREDXGyU7iSgWi.8pFL4i6NeCC979X8yG0xbpY62ommrZK",
+      "nome": "Márcio Gabriel de Oliveira",
+      "id": 1
+    }
+  ],
   "produtos": [
     {
       "id": 1,
